@@ -19,7 +19,7 @@
                 {
                     var movie = hit.Source;
                     <tr>
-                        <td>@Html.DisplayFor(model => movie.Title)</td>
+                        <td><a href="@movie.MovieUrl">@Html.DisplayFor(model => movie.Title)</a></td>
                         <td>
                             @Html.DisplayFor(model => movie.Storyline)
                         </td>
