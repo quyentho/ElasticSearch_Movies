@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch", "MoviesSearch\MoviesSearch.csproj", "{12954852-924D-4C07-BC54-B61C1F340054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesSearch.Domain", "MoviesSearch.Domain\MoviesSearch.Domain.csproj", "{15459078-F74B-4D23-8B3F-25C5A61588EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12954852-924D-4C07-BC54-B61C1F340054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12954852-924D-4C07-BC54-B61C1F340054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12954852-924D-4C07-BC54-B61C1F340054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12954852-924D-4C07-BC54-B61C1F340054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15459078-F74B-4D23-8B3F-25C5A61588EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15459078-F74B-4D23-8B3F-25C5A61588EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15459078-F74B-4D23-8B3F-25C5A61588EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15459078-F74B-4D23-8B3F-25C5A61588EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {547230A1-6221-4525-BBC2-1EE3E6CC4BC9}
+	EndGlobalSection
+EndGlobal
