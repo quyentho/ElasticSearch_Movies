@@ -2,25 +2,30 @@
 @using MoviesSearch.Models;
 <div class="row">
     <div class="col-lg-9">
-
-
-            <table class="table table-head-fixed text-nowrap">
-                <thead>
+        <table class="table table-head-fixed text-nowrap">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Storyline</th>
+                    <th>Title</th>
+                    <th>Title</th>
+                    <th>Title</th>
+                    <th>Title</th>
+                    <th>Title</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var hit in Model.Hits)
+                {
+                    var movie = hit.Source;
                     <tr>
-                        <th>Title</th>
+                        <td>@Html.DisplayFor(model => movie.Title)</td>
+                        <td>
+                            @Html.DisplayFor(model => movie.Storyline)
+                        </td>
                     </tr>
-                </thead>
-                <tbody>
-                    @foreach (var hit in Model.Hits)
-                    {
-                        var movie = hit.Source;
-                        <tr>
-                            <td>@Html.DisplayFor(model => movie.Title)</td>
-                            <td>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
-        </div>
+                }
+            </tbody>
+        </table>
     </div>
+</div>
